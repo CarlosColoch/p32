@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Carrusel de Imagenes</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+	<header style="background-color: #000000; color: #ffd07d;" id="miheader">
+		<p align="center">
+			PRACTICA 32 accesibliad
+		</p>
+	</header>
+	
+	<div>
+		<p align="center">
+			Carrusel de <em>bicicletas</em>
+		</p>
+	</div>
+<div id="slider">
+		<img src="img/1.jpg" alt="Bici 1">
+		<img src="img/2.jpg" alt="Bici 2">
+		<img src="img/3.jpg" alt="Bici 3">
+		<img src="img/4.jpg" alt="Bici 4">
+		<img src="img/5.jpg" alt="Bici 5">
+		<img src="img/6.jpg" alt="Bici 6">
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td id="izquierda">
+					<input type="button" value="anterior" onclick="cambiarManual('IZQ')">
+				</td>
+				<td id="derecha">
+					<input type="button" value="siguiente" onclick="cambiarManual('DER')">
+				</td>
+			</tr>
+		</table>
+	</div><p>
+	<footer class="abbr1" style="background-color: #000000; color: #ffd07d;">
+		<a href="index.html" role="button"><p align="center"> Este es el footer: Clic retornar a la página.</p></a>
+	</footer>
+	
+	<script type="text/javascript" src="./js/lider.js"></script>			
+</body>
+</html>

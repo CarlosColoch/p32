@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Práctica 32.</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+<header style="background-color: #000000; color: #ffd07d;" id="miheader">
+    <p align="center">
+        PRACTICA 32 accesibliad
+    </p>
+</header>
+ <main>
+    <nav>
+        <ul>
+            <li><a href="#registro" role="button">Registro</a></li>
+            <li><a href="pag2.html" role="button">Carrusel de bicicletas.</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <p>El uso adecuado de etiquetas HTML con <em>Estructura semántica</em>.</p>
+        <p style="background: indigo; color: white;">Organizar el contenido de un sitio web, reflejando su significado y <strong>jerarquìa.</strong></p>
+        <p  dir="rtl">
+            Uso de lenguaje, no traducir como este ejemplo: <span translate="no">StarWars</span>
+        </p>
+    </section>
+    <section>
+        <h1>3 imágenes <code>Agua, tierra y luna,</code> como ejemplos de imágenes.</h1>
+        <h2 align="center">La luna, tierra y mar.</h2>
+        <img class="img1" src="./img/Pantalla01.jpg" alt="Agua del mar" aria-label="Cerrar modal" alt"English"><br>
+        <img class="img2" src="./img/tierra1.jpg" alt="Vista de la tierra desde fuera " alt"English">
+        <img class="img3" src="./img/MiLuna1.jpg" alt="Vista de la luna desde la tierra" alt"English">
+    </section>
+
+<br>
+<br>
+<section id="registro">
+    <div id="registrationModal" class="modal" role="dialog" arial-labelledby="registrationModalTitle">
+        <h3 class="h31" align="center" id="registrationModalTitle">Registro para la práctica 32.</h3>        
+        <form>    
+            <label for="nombre">Nombre....................:</label>    
+            <input type="text" id="nombre" name="nombre" tabindex="1" placeHolder="del alumno." required pattern="[^.]*?" aria-describedby="firstName-length-error" aria-invalid="true"><br>    
+            <label for="email">Correo electrónico...:</label>    
+            <input type="email" id="email" name="email" tabindex="2" placeHolder="e-mail personal." required><br>    
+            <button style="position: absolute; left: 50%; transform: translateX(-50%)" aria-label ="Registro de interesados" type="submit" tabindex="3">Registrar</button> 
+        </form>
+        <p></p>
+    </div>
+</section>
+
+<p> El contenido web se marca usando
+    <abbr title="Hypertext Markup Language">HTML </abbr>proporciona etiquetas descriptivas.
+</p>
+
+</main>
+<footer class="abbr1" style="background-color: #000000; color: #ffd07d;">
+    <a href="#miheader" role="button"><p align="center"> Este es el footer: Clic para retornar a la página.</p></a>
+</footer>
+</body>
+</html>
